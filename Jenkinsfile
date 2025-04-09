@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Clone Repository') {
       steps {
-        git url: 'https://github.com/KyathamRohith/jenkins-shared-library.git', branch: 'main'
+        git url: 'https://github.com/Pravalikaa18/jenkins-shared-library.git', branch: 'main'
       }
     }
 
